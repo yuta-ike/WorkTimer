@@ -1,0 +1,46 @@
+#start-time-label{
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 10px;
+  background: #66bb6a;
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+#start-time-label:hover{
+  background: #549c57;
+}
+
+#record-times-label{
+  margin-top: 8px;
+  font-size: 12px;
+  color: #646464;
+  text-align: center;
+  -webkit-app-region: none;
+  -webkit-user-select: text;
+}
+
+#copy-button{
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  border: solid #66bb6a 1px;
+  background: white;
+  color: #66bb6a;
+  transition: all 0.3s ease-out;
+  text-align: center;
+  
+}
+#copy-button:hover{
+  background: #ebf0eb;
+}
+#copy-button:active{
+  background: #66bb6a;
+  color: white;
+}
